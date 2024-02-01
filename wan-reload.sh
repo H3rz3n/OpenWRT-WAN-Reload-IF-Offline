@@ -67,7 +67,7 @@ while [[ $tentativi -lt $contatore ]]; do
 
         # Esecuzione del ping ad un indirizzo che sappiamo essere sempre online o l'indirizzo del modem a cui riconnettersi.
         # Execution of the ping on the disigned address, this has to be an address that we know it's always going to be always online. In my case it's my modem, but you can use a DNS as 1.1.1.1 or 8.8.8.8
-        ping -c 1 192.168.8.1
+        ping -c 1 8.8.8.8
 
         # Copiamo il valore di riuscita 0 o non riuscita 1 del ping.
         # Copying the value of the ping, if it's zero the adress is online, otherwise it's offline.
